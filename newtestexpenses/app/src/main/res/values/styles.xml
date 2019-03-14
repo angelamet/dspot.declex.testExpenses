@@ -1,0 +1,63 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="ExpensesButton" parent="Base.TextAppearance.AppCompat.Button">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorTextButton</item>
+        <item name="android:background">@drawable/drawable_button_selector</item>
+    </style>
+
+    <style name="ExpensesActionCaption" parent="Base.TextAppearance.AppCompat.Caption">
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="ExpensesCaption" parent="Base.TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ExpensesCaption2" parent="Base.TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">@color/colorYellow</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ExpensesActionCaption2" parent="Base.TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">@color/colorYellow</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ExpensesEditText" parent="Base.Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/drawable_expenses_edit</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:maxHeight">150dp</item>
+    </style>
+
+    <style name="ExpensesDialogHeader" parent="Base.TextAppearance.AppCompat.Display1">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:background">#3E000000</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

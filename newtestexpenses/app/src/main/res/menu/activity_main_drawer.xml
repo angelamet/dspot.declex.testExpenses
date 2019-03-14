@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_expenses_list"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/navigation_expenses_list" />
+        <item
+            android:id="@+id/nav_new_expenses"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/navigation_new_expenses" />
+        <item
+            android:id="@+id/nav_expenses_per_week"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/navigation_expenses_per_week" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/navigation_profile" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/navigation_logout" />
+    </group>
+
+</menu>

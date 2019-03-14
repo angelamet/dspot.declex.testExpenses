@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1000198380006",
+    "firebase_url": "https://declex-example-expenses.firebaseio.com",
+    "project_id": "declex-example-expenses",
+    "storage_bucket": "declex-example-expenses.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000198380006:android:0f43b3568dc379d1",
+        "android_client_info": {
+          "package_name": "com.dspot.declex.example.expenses"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000198380006-4tl88v9puvrrrn6gkdbgq53qflqbf5m7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dspot.declex.example.expenses",
+            "certificate_hash": "e50889fc8f58576eb8e96328a68f799b24079cf7"
+          }
+        },
+        {
+          "client_id": "1000198380006-674eg7r3ihtq8l1c72vk8efg4rkotg4t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtkE6050j8h8usCeJy0Rofd2Vjh74vNCU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1000198380006-674eg7r3ihtq8l1c72vk8efg4rkotg4t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
