@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/splashFragment">
+    app:startDestination="@id/testFragment">
     <fragment
         android:id="@+id/loginFragment2"
         android:name="com.dspot.declex.newtestexpenses.view.authentication.login.LoginFragment"
@@ -13,5 +13,18 @@
         android:id="@+id/splashFragment"
         android:name="com.dspot.declex.newtestexpenses.view.authentication.splash.SplashFragment"
         android:label="fragment_splash"
-        tools:layout="@layout/fragment_splash" />
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_loginFragment2"
+            app:destination="@id/loginFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/testFragment"
+        android:name="com.dspot.declex.newtestexpenses.view.authentication.splash.SplashFragment"
+        android:label="fragment_test"
+        tools:layout="@layout/fragment_test" >
+        <action
+            android:id="@+id/action_testFragment_to_loginFragment2"
+            app:destination="@id/loginFragment2" />
+    </fragment>
 </navigation>

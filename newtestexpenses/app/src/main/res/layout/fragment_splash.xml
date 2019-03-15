@@ -1,14 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
     tools:context=".SplashFragment">
+    <data>
+        <variable
+            name="MainActivityViewModel"
+            type="com.dspot.declex.newtestexpenses.view.MainActivityViewModel" />
+    </data>
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:gravity="center|center_vertical"
+        android:orientation="vertical">
 
-</FrameLayout>
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="@{MainActivityViewModel::onClickButton}"
+            android:text="Button"
+            tools:layout_editor_absoluteX="122dp"
+            tools:layout_editor_absoluteY="424dp" />
+    </LinearLayout>
+
+</layout>

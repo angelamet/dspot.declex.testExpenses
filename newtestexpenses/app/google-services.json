@@ -2,7 +2,7 @@
   "project_info": {
     "project_number": "1000198380006",
     "firebase_url": "https://declex-example-expenses.firebaseio.com",
-    "project_id": "declex-example-expenses",
+    "project_id": "test-expenses",
     "storage_bucket": "declex-example-expenses.appspot.com"
   },
   "client": [
@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:1000198380006:android:0f43b3568dc379d1",
         "android_client_info": {
-          "package_name": "com.dspot.declex.example.expenses"
+          "package_name": "com.dspot.declex.newtestexpenses"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "1000198380006-4tl88v9puvrrrn6gkdbgq53qflqbf5m7.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.dspot.declex.example.expenses",
+            "package_name": "com.dspot.declex.newtestexpenses",
             "certificate_hash": "e50889fc8f58576eb8e96328a68f799b24079cf7"
           }
         },
